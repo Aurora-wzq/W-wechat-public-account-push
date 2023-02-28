@@ -12,11 +12,20 @@ const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '  APP_ID: 'wx168e6ddb9990f554',
-',
 
-  PROVINCE: '河南',
+ 
+  SWITCH: {
+    /** 每日天气 */
+    // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: true,
+  // 每日一言, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    oneTalk: true,
+    },
+  
+      PROVINCE: '河南',
   CITY: '郑州',
-
+     
+    
   USERS: [
     {
       // 想要发送的人的名字
